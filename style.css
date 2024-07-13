@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #222;
+}
+
+.weather-app {
+  padding: 40px 35px;
+  width: 90%;
+  max-width: 470px;
+  /* bunu sorus */
+  background-image: url("../images/background.jpg");
+  margin: 100px auto 0;
+  border-radius: 20px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.search-part {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-part input {
+  border: none;
+  outline: none;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  border-radius: 30px;
+  flex: 1;
+  /* (bunu sorus) */
+  font-size: 18px;
+  margin-right: 18px;
+}
+.search-part button {
+  border: none;
+  outline: none;
+  background: #ebfffc;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search-part button img {
+  width: 16px;
+}
+.main-part .picture {
+  width: 170px;
+  margin-top: 30px;
+}
+.main-part h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.main-part h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.details {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.details p {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.main-part {
+  display: none;
+}
+.error {
+  margin-left: 10px;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  display: none;
+}
+@media only screen and (min-width: 208px) {
+
+  .search-part button {
+    width: 30px;
+    height: 30px;
+    padding:8px;
+    margin-right: 8px;
+    
+  }
+  .search-part button img {
+    width: 12px;
+  }
+}
